@@ -7,7 +7,7 @@ from io import BytesIO
 
 # --- CONFIGURAZIONE ---
 OUTPUT_DIR = "playlists"
-REGIONS = ['it', 'us', 'gb', 'de', 'es', 'fr', 'at', 'ch', 'ca'] 
+REGIONS = ['it', 'us', 'gb', 'de', 'es', 'fr', 'at', 'ch', 'ca', 'all'] 
 
 SOURCES = {
     'samsung': 'https://i.mjh.nz/SamsungTVPlus/.channels.json.gz',
@@ -31,8 +31,11 @@ def run():
         print(f"--- Elaborazione {service.upper()} ---")
         try:
             data = fetch_data(url)
+            # Controlliamo quali regioni sono effettivamente presenti nel file del servizio
+            available_regions = data.get('regions', {}).keys()
+            
             for region in REGIONS:
-                if region not in data['regions']:
+                if region not in available_regions:
                     continue
                 
                 print(f"Generando {service} per {region}...")
@@ -40,7 +43,6 @@ def run():
                 region_m3u = [f'#EXTM3U url-tvg="https://i.mjh.nz/{service.capitalize()}/{region}.xml.gz"']
                 
                 for c_id, ch in channels.items():
-                    # --- LOGICA LINK ---
                     if service == 'pluto':
                         stream_url = f"https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/{c_id}/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId={uuid.uuid4()}&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid={uuid.uuid4()}&serverSideAds=true"
                     elif service == 'samsung':
@@ -61,9 +63,10 @@ def run():
                     all_channels_m3u.append(extinf)
                     all_channels_m3u.append(stream_url)
                 
-                filename = f"{service}_{region}.m3u"
-                with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
-                    f.write("\n".join(region_m3u))
+                if len(region_m3u) > 1:
+                    filename = f"{service}_{region}.m3u"
+                    with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
+                        f.write("\n".join(region_m3u))
                     
         except Exception as e:
             print(f"Errore su {service}: {e}")
