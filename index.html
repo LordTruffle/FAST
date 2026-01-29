@@ -6,16 +6,16 @@
     <title>LordTruffle FAST TV</title>
     <style>
         :root {
-            --bg: #040714;
-            --card-bg: #1a1d29;
-            --blue: #0063e5;
-            --silver: #f9f9f9;
+            --bg: #0b0d17;
+            --accent-blue: #00d4ff;
+            --accent-purple: #9d50bb;
+            --accent-orange: #ff4b2b;
         }
 
         body {
-            font-family: 'Segoe UI', sans-serif;
-            background: radial-gradient(circle at top, #1c264d 0%, #040714 100%);
-            color: var(--silver);
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: radial-gradient(circle at top, #1a1c2c 0%, #050505 100%);
+            color: #ffffff;
             margin: 0;
             padding: 40px 20px;
             display: flex;
@@ -24,73 +24,94 @@
             min-height: 100vh;
         }
 
-        h1 { font-size: 2.2rem; letter-spacing: 4px; margin-bottom: 50px; text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+        h1 { font-size: 2.8rem; font-weight: 800; letter-spacing: -2px; margin-bottom: 40px; text-transform: uppercase; }
 
         .container { max-width: 900px; width: 100%; }
 
-        /* Super List Card */
+        /* Super List Card Vibrante */
         .all-in-one {
-            background: linear-gradient(135deg, rgba(0,99,229,0.2) 0%, rgba(0,0,0,0.6) 100%);
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 20px;
-            padding: 30px;
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.2) 0%, rgba(157, 80, 187, 0.2) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 35px;
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
             backdrop-filter: blur(10px);
         }
 
         .brand-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 20px;
         }
 
+        /* Card Brand Stondate e Colorate */
         .brand-card {
-            background-color: var(--card-bg);
-            border: 2px solid rgba(249, 249, 249, 0.1);
-            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
             padding: 30px;
             text-align: center;
             cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
         .brand-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--blue);
-            background-color: #222634;
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.07);
         }
 
-        .brand-title { font-size: 1.5rem; font-weight: bold; letter-spacing: 2px; margin-bottom: 10px; color: #fff; }
+        /* Colori specifici per i bordi al passaggio */
+        .brand-card.samsung:hover { border-color: var(--accent-blue); box-shadow: 0 0 30px rgba(0, 212, 255, 0.2); }
+        .brand-card.pluto:hover { border-color: var(--accent-purple); box-shadow: 0 0 30px rgba(157, 80, 187, 0.2); }
+        .brand-card.rakuten:hover { border-color: var(--accent-orange); box-shadow: 0 0 30px rgba(255, 75, 43, 0.2); }
 
-        /* Area links a comparsa */
+        .brand-title { font-size: 1.6rem; font-weight: 900; letter-spacing: 1px; }
+
+        /* Area links a comparsa (non toccata logicamente) */
         .links-area {
             display: none;
-            margin-top: 20px;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            animation: fadeIn 0.4s ease;
+            margin-top: 25px;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            animation: slideDown 0.3s ease-out;
         }
 
-        @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
         .btn {
-            background: rgba(255,255,255,0.1);
-            border: 1px solid rgba(255,255,255,0.3);
-            color: white;
-            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 12px;
             text-decoration: none;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            transition: 0.2s;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: 0.3s;
         }
 
-        .btn:hover { background: var(--blue); border-color: var(--blue); }
+        .btn:hover { background: #fff; color: #000; }
 
-        code { background: #000; padding: 12px; display: block; margin: 15px 0; font-size: 0.75rem; border-radius: 8px; color: #00d4fa; word-break: break-all; }
+        .btn-main {
+            background: #fff;
+            color: #000;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 800;
+            text-transform: uppercase;
+            border: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        code { background: rgba(0,0,0,0.5); padding: 15px; border-radius: 12px; color: var(--accent-blue); font-family: monospace; font-size: 0.8rem; margin: 20px 0; display: block; word-break: break-all; }
         
-        footer { margin-top: auto; padding-top: 50px; color: #444; font-size: 0.7rem; }
+        footer { margin-top: 80px; color: #444; font-size: 0.8rem; letter-spacing: 1px; }
     </style>
 </head>
 <body>
@@ -100,15 +121,15 @@
     <div class="container">
         
         <div class="all-in-one">
-            <h3 style="color: #00d4fa; margin-top:0;">🚀 PLAYLIST ALL-IN-ONE</h3>
-            <p style="font-size: 0.9rem; color: #aaa;">Tutti i canali in un unico link RAW</p>
+            <h2 style="margin:0; font-weight: 800;">🚀 GLOBAL PLAYLIST</h2>
+            <p style="color: #ccc;">Tutto il mondo in un unico link RAW</p>
             <code>https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u</code>
-            <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u" class="btn" style="background: var(--blue); border:none; padding: 12px 25px; font-weight:bold;">APRI RAW M3U</a>
+            <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u" class="btn-main">Copia Link Universale</a>
         </div>
 
         <div class="brand-grid">
-            <div class="brand-card" onclick="toggleLinks('samsung')">
-                <div class="brand-title">SAMSUNG</div>
+            <div class="brand-card samsung" onclick="toggleLinks('samsung')">
+                <div class="brand-title" style="color: var(--accent-blue);">SAMSUNG</div>
                 <div id="samsung-links" class="links-area">
                     <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_it.m3u" class="btn">Italia 🇮🇹</a>
                     <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_us.m3u" class="btn">USA 🇺🇸</a>
@@ -116,8 +137,8 @@
                 </div>
             </div>
 
-            <div class="brand-card" onclick="toggleLinks('pluto')">
-                <div class="brand-title">PLUTO TV</div>
+            <div class="brand-card pluto" onclick="toggleLinks('pluto')">
+                <div class="brand-title" style="color: var(--accent-purple);">PLUTO TV</div>
                 <div id="pluto-links" class="links-area">
                     <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/pluto_it.m3u" class="btn">Italia 🇮🇹</a>
                     <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/pluto_us.m3u" class="btn">USA 🇺🇸</a>
@@ -125,8 +146,8 @@
                 </div>
             </div>
 
-            <div class="brand-card" onclick="toggleLinks('rakuten')">
-                <div class="brand-title">RAKUTEN</div>
+            <div class="brand-card rakuten" onclick="toggleLinks('rakuten')">
+                <div class="brand-title" style="color: var(--accent-orange);">RAKUTEN</div>
                 <div id="rakuten-links" class="links-area">
                     <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/rakuten_it.m3u" class="btn">Italia 🇮🇹</a>
                     <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/rakuten_es.m3u" class="btn">Spagna 🇪🇸</a>
@@ -136,16 +157,16 @@
 
     </div>
 
-    <footer>LORDTRUFFLE FAST TV • SISTEMA AUTOMATIZZATO 2026</footer>
+    <footer>LORDTRUFFLE FAST TV • 2026 PREMIUM DASHBOARD</footer>
 
     <script>
         function toggleLinks(id) {
-            // Chiude gli altri prima di aprire il corrente
+            // Logica a scomparsa preservata
             ['samsung', 'pluto', 'rakuten'].forEach(brand => {
                 if(brand !== id) document.getElementById(brand + '-links').style.display = 'none';
             });
             const area = document.getElementById(id + '-links');
-            area.style.display = (area.style.display === 'grid') ? 'none' : 'grid';
+            area.style.display = (area.style.display === 'grid' || area.style.display === 'block') ? 'none' : 'grid';
         }
     </script>
 </body>
