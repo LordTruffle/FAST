@@ -8,10 +8,13 @@ from io import BytesIO
 # --- CONFIGURAZIONE ---
 OUTPUT_DIR = "playlists"
 REGIONS = ['it', 'us', 'gb', 'de', 'es', 'fr', 'at', 'ch', 'ca'] 
+
 SOURCES = {
     'samsung': 'https://i.mjh.nz/SamsungTVPlus/.channels.json.gz',
     'pluto': 'https://i.mjh.nz/PlutoTV/.channels.json.gz',
-    'rakuten': 'https://i.mjh.nz/RakutenTV/.channels.json.gz'
+    'rakuten': 'https://i.mjh.nz/RakutenTV/.channels.json.gz',
+    'plex': 'https://i.mjh.nz/Plex/.channels.json.gz',
+    'roku': 'https://i.mjh.nz/Roku/.channels.json.gz'
 }
 
 def fetch_data(url):
@@ -22,12 +25,14 @@ def fetch_data(url):
 
 def run():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    all_channels_m3u = ['#EXTM3U'] # Inizializza la lista globale
+    all_channels_m3u = ['#EXTM3U']
     
     for service, url in SOURCES.items():
         print(f"--- Elaborazione {service.upper()} ---")
         try:
             data = fetch_data(url)
+            # Alcuni servizi come Plex/Roku potrebbero non avere divisioni regionali classiche
+            # ma MJH le organizza comunque per 'us', 'all', ecc.
             for region in REGIONS:
                 if region not in data['regions']:
                     continue
@@ -37,26 +42,27 @@ def run():
                 region_m3u = [f'#EXTM3U url-tvg="https://i.mjh.nz/{service.capitalize()}/{region}.xml.gz"']
                 
                 for c_id, ch in channels.items():
+                    # --- LOGICA LINK ---
                     if service == 'pluto':
                         stream_url = f"https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/{c_id}/master.m3u8?advertisingId=&appName=web&appVersion=9.1.2&deviceDNT=0&deviceId={uuid.uuid4()}&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=126.0.0&sid={uuid.uuid4()}&serverSideAds=true"
                     elif service == 'samsung':
                         slug = data.get('slug', '{id}').format(id=c_id)
                         stream_url = f"https://jmp2.uk/{slug}"
+                    elif service == 'plex':
+                        stream_url = f"https://jmp2.uk/plex-{c_id}.m3u8"
+                    elif service == 'roku':
+                        stream_url = f"https://jmp2.uk/roku-{c_id}.m3u8"
                     else: # rakuten
                         stream_url = f"https://i.mjh.nz/RakutenTV/{region}/{c_id}.m3u8"
                     
                     group = f"{service.upper()} {region.upper()}"
                     extinf = f'#EXTINF:-1 tvg-id="{c_id}" tvg-logo="{ch["logo"]}" group-title="{group}",{ch["name"]}'
                     
-                    # Aggiungi alla lista regionale
                     region_m3u.append(extinf)
                     region_m3u.append(stream_url)
-                    
-                    # Aggiungi alla lista globale (senza l'header #EXTM3U ripetuto)
                     all_channels_m3u.append(extinf)
                     all_channels_m3u.append(stream_url)
                 
-                # Salva file regionale
                 filename = f"{service}_{region}.m3u"
                 with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
                     f.write("\n".join(region_m3u))
@@ -64,10 +70,8 @@ def run():
         except Exception as e:
             print(f"Errore su {service}: {e}")
 
-    # Alla fine, salva il file totale
     with open(os.path.join(OUTPUT_DIR, "all_channels.m3u"), "w", encoding="utf-8") as f:
         f.write("\n".join(all_channels_m3u))
-    print("--- File all_channels.m3u generato con successo! ---")
 
 if __name__ == "__main__":
     run()
