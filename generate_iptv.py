@@ -31,8 +31,6 @@ def run():
         print(f"--- Elaborazione {service.upper()} ---")
         try:
             data = fetch_data(url)
-            # Alcuni servizi come Plex/Roku potrebbero non avere divisioni regionali classiche
-            # ma MJH le organizza comunque per 'us', 'all', ecc.
             for region in REGIONS:
                 if region not in data['regions']:
                     continue
@@ -48,12 +46,12 @@ def run():
                     elif service == 'samsung':
                         slug = data.get('slug', '{id}').format(id=c_id)
                         stream_url = f"https://jmp2.uk/{slug}"
+                    elif service == 'rakuten':
+                        stream_url = f"https://jmp2.uk/rak-{c_id}.m3u8"
                     elif service == 'plex':
                         stream_url = f"https://jmp2.uk/plex-{c_id}.m3u8"
                     elif service == 'roku':
                         stream_url = f"https://jmp2.uk/roku-{c_id}.m3u8"
-                    else: # rakuten
-                        stream_url = f"https://i.mjh.nz/RakutenTV/{region}/{c_id}.m3u8"
                     
                     group = f"{service.upper()} {region.upper()}"
                     extinf = f'#EXTINF:-1 tvg-id="{c_id}" tvg-logo="{ch["logo"]}" group-title="{group}",{ch["name"]}'
