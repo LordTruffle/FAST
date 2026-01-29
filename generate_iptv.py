@@ -3,6 +3,7 @@ import json
 import gzip
 import requests
 import uuid
+import shutil # <--- Aggiunto per la pulizia
 from io import BytesIO
 
 # --- CONFIGURAZIONE ---
@@ -24,14 +25,18 @@ def fetch_data(url):
         return json.load(gz)
 
 def run():
+    # --- PULIZIA AUTOMATICA ---
+    # Cancella la cartella playlists se esiste, così non restano file vecchi
+    if os.path.exists(OUTPUT_DIR):
+        shutil.rmtree(OUTPUT_DIR)
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
     all_channels_m3u = ['#EXTM3U']
     
     for service, url in SOURCES.items():
         print(f"--- Elaborazione {service.upper()} ---")
         try:
             data = fetch_data(url)
-            # Controlliamo quali regioni sono effettivamente presenti nel file del servizio
             available_regions = data.get('regions', {}).keys()
             
             for region in REGIONS:
