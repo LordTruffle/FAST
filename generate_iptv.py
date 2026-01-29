@@ -7,7 +7,7 @@ from io import BytesIO
 
 # --- CONFIGURAZIONE ---
 OUTPUT_DIR = "playlists"
-REGIONS = ['it', 'us', 'gb', 'de', 'es', 'fr']
+REGIONS = ['it', 'us', 'gb', 'de', 'es', 'fr', 'at', 'ch', 'ca'] 
 SOURCES = {
     'samsung': 'https://i.mjh.nz/SamsungTVPlus/.channels.json.gz',
     'pluto': 'https://i.mjh.nz/PlutoTV/.channels.json.gz',
@@ -22,6 +22,7 @@ def fetch_data(url):
 
 def run():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    all_channels_m3u = ['#EXTM3U'] # Inizializza la lista globale
     
     for service, url in SOURCES.items():
         print(f"--- Elaborazione {service.upper()} ---")
@@ -33,7 +34,7 @@ def run():
                 
                 print(f"Generando {service} per {region}...")
                 channels = data['regions'][region].get('channels', {})
-                m3u_content = [f'#EXTM3U url-tvg="https://i.mjh.nz/{service.capitalize()}/{region}.xml.gz"']
+                region_m3u = [f'#EXTM3U url-tvg="https://i.mjh.nz/{service.capitalize()}/{region}.xml.gz"']
                 
                 for c_id, ch in channels.items():
                     if service == 'pluto':
@@ -47,16 +48,26 @@ def run():
                     group = f"{service.upper()} {region.upper()}"
                     extinf = f'#EXTINF:-1 tvg-id="{c_id}" tvg-logo="{ch["logo"]}" group-title="{group}",{ch["name"]}'
                     
-                    m3u_content.append(extinf)
-                    m3u_content.append(stream_url)
+                    # Aggiungi alla lista regionale
+                    region_m3u.append(extinf)
+                    region_m3u.append(stream_url)
+                    
+                    # Aggiungi alla lista globale (senza l'header #EXTM3U ripetuto)
+                    all_channels_m3u.append(extinf)
+                    all_channels_m3u.append(stream_url)
                 
-                # CORRETTO: filename = f"{service}_{region}.m3u"
+                # Salva file regionale
                 filename = f"{service}_{region}.m3u"
                 with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
-                    f.write("\n".join(m3u_content))
+                    f.write("\n".join(region_m3u))
                     
         except Exception as e:
             print(f"Errore su {service}: {e}")
+
+    # Alla fine, salva il file totale
+    with open(os.path.join(OUTPUT_DIR, "all_channels.m3u"), "w", encoding="utf-8") as f:
+        f.write("\n".join(all_channels_m3u))
+    print("--- File all_channels.m3u generato con successo! ---")
 
 if __name__ == "__main__":
     run()
