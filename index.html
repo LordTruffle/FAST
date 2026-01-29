@@ -5,88 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LordTruffle FAST TV</title>
     <style>
-        :root { --red: #e50914; --dark: #141414; }
-        body { font-family: 'Segoe UI', Arial, sans-serif; background: #000; color: white; margin: 0; padding: 20px; overflow-x: hidden; }
-        
-        /* Palloncini Leggeri */
-        .balloon {
-            position: fixed; bottom: -100px; width: 30px; height: 35px;
-            background: rgba(229, 9, 20, 0.3); border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
-            animation: float 20s infinite linear; z-index: -1;
-        }
-        .balloon::after { content: ""; position: absolute; bottom: -15px; left: 15px; width: 1px; height: 15px; background: rgba(255,255,255,0.2); }
-        @keyframes float {
-            0% { transform: translateY(0) rotate(0deg); }
-            100% { transform: translateY(-120vh) rotate(20deg); }
+        :root {
+            --accent: #3b82f6;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-hover: rgba(255, 255, 255, 0.1);
         }
 
-        .container { max-width: 900px; margin: auto; }
-        h1 { color: var(--red); font-size: 2.5rem; text-align: center; margin-bottom: 5px; }
-        .status { text-align: center; color: #10b981; font-size: 0.9rem; margin-bottom: 30px; }
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: radial-gradient(circle at top, #1a1a2e 0%, #0a0a0c 100%);
+            color: #efefef;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
 
-        .box { background: #1a1a1a; border-radius: 10px; padding: 20px; margin-bottom: 20px; border: 1px solid #333; }
-        h2 { border-bottom: 1px solid var(--red); padding-bottom: 10px; font-size: 1.2rem; }
+        .balloon-deco {
+            position: fixed;
+            width: 150px;
+            height: 150px;
+            background: var(--accent);
+            filter: blur(80px);
+            opacity: 0.15;
+            border-radius: 50%;
+            z-index: -1;
+            animation: move 20s infinite alternate;
+        }
+
+        @keyframes move {
+            from { transform: translate(-20%, -20%); }
+            to { transform: translate(20%, 20%); }
+        }
+
+        .container { max-width: 850px; margin: auto; }
         
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-top: 15px; }
+        .header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -1.5px; margin-bottom: 5px; color: white; }
+        .status { font-size: 0.75rem; color: #10b981; text-transform: uppercase; letter-spacing: 3px; font-weight: bold; }
+
+        .main-box {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(37, 99, 235, 0.03) 100%);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 30px;
+            padding: 35px;
+            text-align: center;
+            margin-bottom: 45px;
+            backdrop-filter: blur(15px);
+        }
+
+        .section { margin-bottom: 40px; }
+        h2 { font-size: 0.85rem; text-transform: uppercase; color: #6366f1; letter-spacing: 2px; margin: 0 0 20px 10px; font-weight: 700; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 15px;
+        }
+
+        .link-card {
+            background: var(--glass);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 22px;
+            padding: 22px;
+            text-decoration: none;
+            color: #ccc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .link-card:hover {
+            background: var(--glass-hover);
+            transform: translateY(-8px) scale(1.02);
+            border-color: var(--accent);
+            color: white;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+        }
+
+        .logo {
+            height: 28px;
+            margin-bottom: 15px;
+            opacity: 0.6;
+            filter: brightness(0) invert(1);
+            transition: 0.3s ease;
+        }
+
+        .link-card:hover .logo { opacity: 1; filter: none; }
+
+        .btn-main {
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            padding: 16px 35px;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 700;
+            margin-top: 20px;
+            transition: 0.3s;
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.2);
+        }
+
+        .btn-main:hover { transform: translateY(-2px); box-shadow: 0 15px 30px rgba(59, 130, 246, 0.4); background: #2563eb; }
+
+        code { background: rgba(0,0,0,0.4); padding: 12px; border-radius: 15px; font-size: 0.7rem; color: #555; word-break: break-all; margin: 20px 0; display: block; border: 1px solid rgba(255,255,255,0.05); }
         
-        .btn { background: #333; color: white; text-decoration: none; padding: 8px; border-radius: 4px; font-size: 0.8rem; text-align: center; transition: 0.2s; border: 1px solid transparent; }
-        .btn:hover { background: var(--red); border-color: white; }
-        .btn-main { background: var(--red); padding: 15px; font-weight: bold; font-size: 1rem; }
-        
-        code { background: #000; padding: 10px; display: block; margin: 10px 0; font-size: 0.7rem; color: #aaa; word-break: break-all; border-left: 3px solid var(--red); }
-        footer { text-align: center; color: #444; font-size: 0.7rem; margin-top: 40px; }
+        footer { text-align: center; margin-top: 80px; color: #333; font-size: 0.7rem; letter-spacing: 1px; }
     </style>
 </head>
 <body>
 
-    <div class="balloon" style="left: 10%; animation-delay: 0s;"></div>
-    <div class="balloon" style="left: 85%; animation-delay: 7s;"></div>
+    <div class="balloon-deco" style="top: 5%; left: 5%;"></div>
+    <div class="balloon-deco" style="bottom: 5%; right: 5%; background: #6366f1;"></div>
 
     <div class="container">
-        <h1>LORDTRUFFLE FAST</h1>
-        <p class="status">● AUTO-UPDATE ATTIVO</p>
+        <div class="header">
+            <h1>LordTruffle FAST</h1>
+            <div class="status">● Sistema 2026 Operativo</div>
+        </div>
 
-        <div class="box">
-            <h2>🚀 Super Lista Globale (Tutto in uno)</h2>
+        <div class="main-box">
+            <h3>🌍 Playlist Universale</h3>
+            <p style="font-size: 0.9rem; color: #888;">Tutti i servizi e tutti i paesi in un unico URL.</p>
             <code>https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u</code>
-            <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u" class="btn btn-main">COPIA LINK UNIVERSALE</a>
+            <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u" class="btn-main">COPIA M3U TOTALE</a>
         </div>
 
-        <div class="box">
-            <h2>🇮🇹 Italia</h2>
+        <div class="section">
+            <h2>🇪🇺 Europa (IT, UK, DE, FR, ES)</h2>
             <div class="grid">
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_it.m3u" class="btn">Samsung IT</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/pluto_it.m3u" class="btn">Pluto IT</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/rakuten_it.m3u" class="btn">Rakuten IT</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <h2>🇺🇸 USA & 🇬🇧 UK</h2>
-            <div class="grid">
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_us.m3u" class="btn">Samsung US</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/pluto_us.m3u" class="btn">Pluto US</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/plex_all.m3u" class="btn">Plex Global</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_gb.m3u" class="btn">Samsung UK</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/pluto_gb.m3u" class="btn">Pluto UK</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <h2>🇪🇺 Europa</h2>
-            <div class="grid">
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_de.m3u" class="btn">Germania 🇩🇪</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_fr.m3u" class="btn">Francia 🇫🇷</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_es.m3u" class="btn">Spagna 🇪🇸</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_at.m3u" class="btn">Austria 🇦🇹</a>
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_ch.m3u" class="btn">Svizzera 🇨🇭</a>
-            </div>
-        </div>
-
-        <footer>
-            LORDTRUFFLE FAST TV • NO LOGS • SOLO PERFORMANCE
-        </footer>
-    </div>
-
-</body>
-</html>
+                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_it.m3u" class="link-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" class="logo" alt="Samsung">
+                    <span>Samsung IT</span>
+                </a>
+                <a href="
