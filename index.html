@@ -6,139 +6,144 @@
     <title>LordTruffle FAST TV</title>
     <style>
         :root {
-            --accent: #3b82f6;
-            --glass: rgba(255, 255, 255, 0.05);
-            --glass-hover: rgba(255, 255, 255, 0.1);
+            --bg: #040714;
+            --card-bg: #1a1d29;
+            --blue: #0063e5;
+            --silver: #f9f9f9;
         }
 
         body {
-            font-family: 'Inter', system-ui, -apple-system, sans-serif;
-            background: radial-gradient(circle at top, #1a1a2e 0%, #0a0a0c 100%);
-            color: #efefef;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg);
+            background: radial-gradient(circle at top, #1c264d 0%, #040714 100%);
+            color: var(--silver);
             margin: 0;
-            padding: 20px;
-            min-height: 100vh;
-        }
-
-        .balloon-deco {
-            position: fixed;
-            width: 150px;
-            height: 150px;
-            background: var(--accent);
-            filter: blur(80px);
-            opacity: 0.15;
-            border-radius: 50%;
-            z-index: -1;
-            animation: move 20s infinite alternate;
-        }
-
-        @keyframes move {
-            from { transform: translate(-20%, -20%); }
-            to { transform: translate(20%, 20%); }
-        }
-
-        .container { max-width: 850px; margin: auto; }
-        
-        .header { text-align: center; margin-bottom: 40px; }
-        h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -1.5px; margin-bottom: 5px; color: white; }
-        .status { font-size: 0.75rem; color: #10b981; text-transform: uppercase; letter-spacing: 3px; font-weight: bold; }
-
-        .main-box {
-            background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(37, 99, 235, 0.03) 100%);
-            border: 1px solid rgba(59, 130, 246, 0.2);
-            border-radius: 30px;
-            padding: 35px;
-            text-align: center;
-            margin-bottom: 45px;
-            backdrop-filter: blur(15px);
-        }
-
-        .section { margin-bottom: 40px; }
-        h2 { font-size: 0.85rem; text-transform: uppercase; color: #6366f1; letter-spacing: 2px; margin: 0 0 20px 10px; font-weight: 700; }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-            gap: 15px;
-        }
-
-        .link-card {
-            background: var(--glass);
-            border: 1px solid rgba(255,255,255,0.08);
-            border-radius: 22px;
-            padding: 22px;
-            text-decoration: none;
-            color: #ccc;
+            padding: 40px 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-            font-size: 0.9rem;
-            font-weight: 500;
         }
 
-        .link-card:hover {
-            background: var(--glass-hover);
-            transform: translateY(-8px) scale(1.02);
-            border-color: var(--accent);
-            color: white;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+        h1 { font-size: 2.5rem; margin-bottom: 10px; letter-spacing: 2px; }
+        .status { color: #00d46a; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 50px; }
+
+        .container { max-width: 1000px; width: 100%; }
+
+        /* Super List Card */
+        .all-in-one {
+            background: linear-gradient(135deg, rgba(0,99,229,0.3) 0%, rgba(0,0,0,0.4) 100%);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 60px;
+            backdrop-filter: blur(10px);
         }
 
-        .logo {
-            height: 28px;
-            margin-bottom: 15px;
-            opacity: 0.6;
-            filter: brightness(0) invert(1);
-            transition: 0.3s ease;
+        .all-in-one h3 { margin-top: 0; color: #00d4fa; }
+
+        /* Sezione Brand - Stile Disney+ */
+        .brand-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
         }
 
-        .link-card:hover .logo { opacity: 1; filter: none; }
+        .brand-card {
+            background-color: var(--card-bg);
+            border: 3px solid rgba(249, 249, 249, 0.1);
+            border-radius: 10px;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+            box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+        }
 
-        .btn-main {
-            background: #3b82f6;
-            color: white;
-            text-decoration: none;
-            padding: 16px 35px;
-            border-radius: 50px;
-            display: inline-block;
-            font-weight: 700;
+        .brand-card:hover {
+            transform: scale(1.05);
+            border-color: rgba(249, 249, 249, 0.8);
+            box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+        }
+
+        .brand-card img { height: 60px; filter: drop-shadow(0 0 5px white); }
+
+        /* Sezione Links (Nascosti inizialmente) */
+        .links-area {
             margin-top: 20px;
-            transition: 0.3s;
-            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.2);
+            display: none; /* Appare via JS */
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 10px;
         }
 
-        .btn-main:hover { transform: translateY(-2px); box-shadow: 0 15px 30px rgba(59, 130, 246, 0.4); background: #2563eb; }
+        .btn {
+            background: #1a1d29;
+            border: 1px solid #f9f9f9;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
 
-        code { background: rgba(0,0,0,0.4); padding: 12px; border-radius: 15px; font-size: 0.7rem; color: #555; word-break: break-all; margin: 20px 0; display: block; border: 1px solid rgba(255,255,255,0.05); }
-        
-        footer { text-align: center; margin-top: 80px; color: #333; font-size: 0.7rem; letter-spacing: 1px; }
+        .btn:hover { background: white; color: black; }
+
+        code { background: black; padding: 10px; display: block; margin: 10px 0; font-size: 0.7rem; border-radius: 5px; color: #aaa; }
     </style>
 </head>
 <body>
 
-    <div class="balloon-deco" style="top: 5%; left: 5%;"></div>
-    <div class="balloon-deco" style="bottom: 5%; right: 5%; background: #6366f1;"></div>
+    <h1>LORDTRUFFLE FAST</h1>
+    <div class="status">● SISTEMA STREAMING ATTIVO</div>
 
     <div class="container">
-        <div class="header">
-            <h1>LordTruffle FAST</h1>
-            <div class="status">● Sistema 2026 Operativo</div>
-        </div>
-
-        <div class="main-box">
-            <h3>🌍 Playlist Universale</h3>
-            <p style="font-size: 0.9rem; color: #888;">Tutti i servizi e tutti i paesi in un unico URL.</p>
+        
+        <div class="all-in-one">
+            <h3>🌍 PLAYLIST UNIVERSALE</h3>
             <code>https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u</code>
-            <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u" class="btn-main">COPIA M3U TOTALE</a>
+            <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/all_channels.m3u" class="btn" style="background: var(--blue); border:none; padding: 15px 30px;">COPIA LINK TOTALE</a>
         </div>
 
-        <div class="section">
-            <h2>🇪🇺 Europa (IT, UK, DE, FR, ES)</h2>
-            <div class="grid">
-                <a href="https://raw.githubusercontent.com/LordTruffle/FAST/main/playlists/samsung_it.m3u" class="link-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" class="logo" alt="Samsung">
-                    <span>Samsung IT</span>
-                </a>
-                <a href="
+        <div class="brand-grid">
+            <div class="brand-card" onclick="toggleLinks('samsung')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung">
+                <div id="samsung-links" class="links-area">
+                    <a href="playlists/samsung_it.m3u" class="btn">Italia</a>
+                    <a href="playlists/samsung_us.m3u" class="btn">USA</a>
+                    <a href="playlists/samsung_gb.m3u" class="btn">UK</a>
+                </div>
+            </div>
+
+            <div class="brand-card" onclick="toggleLinks('pluto')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Pluto_TV_logo.svg" alt="Pluto">
+                <div id="pluto-links" class="links-area">
+                    <a href="playlists/pluto_it.m3u" class="btn">Italia</a>
+                    <a href="playlists/pluto_us.m3u" class="btn">USA</a>
+                </div>
+            </div>
+
+            <div class="brand-card" onclick="toggleLinks('rakuten')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Rakuten_Global_Brand_Logo.svg" alt="Rakuten">
+                <div id="rakuten-links" class="links-area">
+                    <a href="playlists/rakuten_it.m3u" class="btn">Italia</a>
+                    <a href="playlists/rakuten_es.m3u" class="btn">Spagna</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleLinks(id) {
+            const area = document.getElementById(id + '-links');
+            area.style.display = (area.style.display === 'grid') ? 'none' : 'grid';
+        }
+    </script>
+</body>
+</html>
