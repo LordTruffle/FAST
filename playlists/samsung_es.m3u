@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="https://i.mjh.nz/Samsung/es.xml.gz"
-#EXTINF:-1 tvg-id="ES4700001VS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4700001VS_20260224T030748SQUARE.png" group-title="SAMSUNG ES",2M
-https://jmp2.uk/stvp-ES4700001VS
 #EXTINF:-1 tvg-id="ES26000068D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES26000068D_20241126T043113SQUARE.png" group-title="SAMSUNG ES",Estilo y Vida – Rakuten TV
 https://jmp2.uk/stvp-ES26000068D
 #EXTINF:-1 tvg-id="ESBC4100001NZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100001NZ_20260224T030732SQUARE.png" group-title="SAMSUNG ES",La 1
@@ -45,6 +43,8 @@ https://jmp2.uk/stvp-ESBA3300033PL
 https://jmp2.uk/stvp-ESBC4700003RJ
 #EXTINF:-1 tvg-id="ES500002NY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500002NY_20250408T021758SQUARE.png" group-title="SAMSUNG ES",H2O & Friends
 https://jmp2.uk/stvp-ES500002NY
+#EXTINF:-1 tvg-id="ES4700001VS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4700001VS_20260224T030748SQUARE.png" group-title="SAMSUNG ES",2M
+https://jmp2.uk/stvp-ES4700001VS
 #EXTINF:-1 tvg-id="ES4300006I4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4300006I4_20251202T002547SQUARE.png" group-title="SAMSUNG ES",El Mueble
 https://jmp2.uk/stvp-ES4300006I4
 #EXTINF:-1 tvg-id="ES4400002LI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400002LI_20260120T031331SQUARE.png" group-title="SAMSUNG ES",Mi Casa
@@ -55,12 +55,12 @@ https://jmp2.uk/stvp-ES1700003C6
 https://jmp2.uk/stvp-ES2200001SF
 #EXTINF:-1 tvg-id="ES400002P5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES400002P5_20260224T030751SQUARE.png" group-title="SAMSUNG ES",Cuéntame cómo pasó
 https://jmp2.uk/stvp-ES400002P5
-#EXTINF:-1 tvg-id="ES3300006QL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3300006QL_20260224T030712SQUARE.png" group-title="SAMSUNG ES",RTVE La Promesa
-https://jmp2.uk/stvp-ES3300006QL
 #EXTINF:-1 tvg-id="ES33000036Q" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES33000036Q_20260224T030806SQUARE.png" group-title="SAMSUNG ES",RTVE La Moderna
 https://jmp2.uk/stvp-ES33000036Q
-#EXTINF:-1 tvg-id="ESBA3300039ZX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300039ZX_20241022T050312SQUARE.png" group-title="SAMSUNG ES",FreeTV Estelar
-https://jmp2.uk/stvp-ESBA3300039ZX
+#EXTINF:-1 tvg-id="ES3300006QL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3300006QL_20260224T030712SQUARE.png" group-title="SAMSUNG ES",RTVE La Promesa
+https://jmp2.uk/stvp-ES3300006QL
+#EXTINF:-1 tvg-id="ES500009ZJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500009ZJ_20260224T030757SQUARE.png" group-title="SAMSUNG ES",FreeTV Estelar
+https://jmp2.uk/stvp-ES500009ZJ
 #EXTINF:-1 tvg-id="ES500005BP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500005BP_20250610T010520SQUARE.png" group-title="SAMSUNG ES",Águila Roja
 https://jmp2.uk/stvp-ES500005BP
 #EXTINF:-1 tvg-id="ESBD1300003VN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1300003VN_20241022T050520SQUARE.png" group-title="SAMSUNG ES",Corazón
@@ -153,6 +153,8 @@ https://jmp2.uk/stvp-ESBC410000577
 https://jmp2.uk/stvp-ESBD3600001Q1
 #EXTINF:-1 tvg-id="ES3200003OC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3200003OC_20251230T030907SQUARE.png" group-title="SAMSUNG ES",DFB Play TV
 https://jmp2.uk/stvp-ES3200003OC
+#EXTINF:-1 tvg-id="ES1100001MT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1100001MT_20260224T030836SQUARE.png" group-title="SAMSUNG ES",Top Barça
+https://jmp2.uk/stvp-ES1100001MT
 #EXTINF:-1 tvg-id="ES300031A5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300031A5_20260224T025336SQUARE.png" group-title="SAMSUNG ES",GOL CLASSICS
 https://jmp2.uk/stvp-ES300031A5
 #EXTINF:-1 tvg-id="ESBC2700009B4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700009B4_20251028T011349SQUARE.png" group-title="SAMSUNG ES",FIFA+
@@ -203,8 +205,8 @@ https://jmp2.uk/stvp-ES4400001N3
 https://jmp2.uk/stvp-ESAJ38000046O
 #EXTINF:-1 tvg-id="ESBA3300028OE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300028OE_20241022T050631SQUARE.png" group-title="SAMSUNG ES",iCarly
 https://jmp2.uk/stvp-ESBA3300028OE
-#EXTINF:-1 tvg-id="ESBD800004KU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD800004KU_20260224T030809SQUARE.png" group-title="SAMSUNG ES",Runtime Romance
-https://jmp2.uk/stvp-ESBD800004KU
+#EXTINF:-1 tvg-id="ESBC2700002LO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700002LO_20260224T030804SQUARE.png" group-title="SAMSUNG ES",Grjngo - Películas Del Oeste
+https://jmp2.uk/stvp-ESBC2700002LO
 #EXTINF:-1 tvg-id="ES700004C8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES700004C8_20260127T040120SQUARE.png" group-title="SAMSUNG ES",Runtime Familia
 https://jmp2.uk/stvp-ES700004C8
 #EXTINF:-1 tvg-id="ES260001081" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260001081_20251230T030900SQUARE.png" group-title="SAMSUNG ES",En Familia - Rakuten TV
@@ -225,6 +227,8 @@ https://jmp2.uk/stvp-ESBC400001QQ
 https://jmp2.uk/stvp-ES2600013H4
 #EXTINF:-1 tvg-id="ES4200001MR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4200001MR_20251209T125859SQUARE.png" group-title="SAMSUNG ES",Moviesphere
 https://jmp2.uk/stvp-ES4200001MR
+#EXTINF:-1 tvg-id="ESBD800004KU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD800004KU_20260224T030809SQUARE.png" group-title="SAMSUNG ES",Runtime Romance
+https://jmp2.uk/stvp-ESBD800004KU
 #EXTINF:-1 tvg-id="ES2600012C9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600012C9_20241022T050603SQUARE.png" group-title="SAMSUNG ES",Películas Románticas - Rakuten TV
 https://jmp2.uk/stvp-ES2600012C9
 #EXTINF:-1 tvg-id="ES900002ZD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES900002ZD_20250422T103210SQUARE.png" group-title="SAMSUNG ES",Todo Pasión
@@ -237,16 +241,14 @@ https://jmp2.uk/stvp-ESBD8000033W
 https://jmp2.uk/stvp-ES260000700
 #EXTINF:-1 tvg-id="ES300007KS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300007KS_20260224T030815SQUARE.png" group-title="SAMSUNG ES",Sony One Hits Comedia
 https://jmp2.uk/stvp-ES300007KS
-#EXTINF:-1 tvg-id="ESBC2700002LO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700002LO_20260224T030804SQUARE.png" group-title="SAMSUNG ES",Grjngo - Películas Del Oeste
-https://jmp2.uk/stvp-ESBC2700002LO
 #EXTINF:-1 tvg-id="ES2300005G7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2300005G7_20260127T040149SQUARE.png" group-title="SAMSUNG ES",Cine Western
 https://jmp2.uk/stvp-ES2300005G7
 #EXTINF:-1 tvg-id="ESBC2700003T8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700003T8_20241022T050457SQUARE.png" group-title="SAMSUNG ES",Bigtime - Películas Gratis
 https://jmp2.uk/stvp-ESBC2700003T8
 #EXTINF:-1 tvg-id="ES2200003DA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2200003DA_20250916T003539SQUARE.png" group-title="SAMSUNG ES",Runtime Clásicos
 https://jmp2.uk/stvp-ES2200003DA
-#EXTINF:-1 tvg-id="ESBD230000143" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD230000143_20260224T030745SQUARE.png" group-title="SAMSUNG ES",FreeTV Clásico
-https://jmp2.uk/stvp-ESBD230000143
+#EXTINF:-1 tvg-id="ES500008IU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500008IU_20260224T030754SQUARE.png" group-title="SAMSUNG ES",FreeTV Clásico
+https://jmp2.uk/stvp-ES500008IU
 #EXTINF:-1 tvg-id="ES2800001G7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2800001G7_20250624T022314SQUARE.png" group-title="SAMSUNG ES",Planeta de Cine
 https://jmp2.uk/stvp-ES2800001G7
 #EXTINF:-1 tvg-id="ES3000008O8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3000008O8_20241022T050508SQUARE.png" group-title="SAMSUNG ES",Cine Español - Rakuten TV
