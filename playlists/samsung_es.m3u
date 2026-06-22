@@ -1,11 +1,11 @@
 #EXTM3U url-tvg="https://i.mjh.nz/Samsung/es.xml.gz"
-#EXTINF:-1 tvg-id="ESBC4100001NZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100001NZ_20260609T042957SQUARE.png" group-title="SAMSUNG ES",La 1
+#EXTINF:-1 tvg-id="ESBC4100001NZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100001NZ_20260622T063708SQUARE.png" group-title="SAMSUNG ES",La 1
 https://jmp2.uk/stvp-ESBC4100001NZ
 #EXTINF:-1 tvg-id="ES26000068D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES26000068D_20241126T043113SQUARE.png" group-title="SAMSUNG ES",Estilo y Vida – Rakuten TV
 https://jmp2.uk/stvp-ES26000068D
 #EXTINF:-1 tvg-id="ESBD3000002GP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3000002GP_20260528T055720SQUARE.png" group-title="SAMSUNG ES",Canal Sur Andalucía
 https://jmp2.uk/stvp-ESBD3000002GP
-#EXTINF:-1 tvg-id="ESBC4100002AG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100002AG_20260224T030735SQUARE.png" group-title="SAMSUNG ES",La 2
+#EXTINF:-1 tvg-id="ESBC4100002AG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100002AG_20260622T063715SQUARE.png" group-title="SAMSUNG ES",La 2
 https://jmp2.uk/stvp-ESBC4100002AG
 #EXTINF:-1 tvg-id="ES300004C9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300004C9_20260528T055651SQUARE.png" group-title="SAMSUNG ES",Sony One Shark Tank
 https://jmp2.uk/stvp-ES300004C9
@@ -33,7 +33,7 @@ https://jmp2.uk/stvp-ES26000025M
 https://jmp2.uk/stvp-ES4100001XD
 #EXTINF:-1 tvg-id="ESBC3500002PW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC3500002PW_20241022T051025SQUARE.png" group-title="SAMSUNG ES",Ideas en 5 Minutos
 https://jmp2.uk/stvp-ESBC3500002PW
-#EXTINF:-1 tvg-id="ES70000710" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES70000710_20260421T123711SQUARE.png" group-title="SAMSUNG ES",Ubeat Lite
+#EXTINF:-1 tvg-id="ES70000710" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES70000710_20260622T063647SQUARE.png" group-title="SAMSUNG ES",Ubeat Lite
 https://jmp2.uk/stvp-ES70000710
 #EXTINF:-1 tvg-id="ES42000022E" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES42000022E_20251202T002550SQUARE.png" group-title="SAMSUNG ES",Xataka
 https://jmp2.uk/stvp-ES42000022E
@@ -49,7 +49,7 @@ https://jmp2.uk/stvp-ES1200005Z1
 https://jmp2.uk/stvp-ES4700001VS
 #EXTINF:-1 tvg-id="ES4300006I4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4300006I4_20260609T042943SQUARE.png" group-title="SAMSUNG ES",El Mueble
 https://jmp2.uk/stvp-ES4300006I4
-#EXTINF:-1 tvg-id="ES4400002LI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400002LI_20260505T035715SQUARE.png" group-title="SAMSUNG ES",Mi Casa
+#EXTINF:-1 tvg-id="ES4400002LI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400002LI_20260622T063722SQUARE.png" group-title="SAMSUNG ES",Mi Casa
 https://jmp2.uk/stvp-ES4400002LI
 #EXTINF:-1 tvg-id="ES1700003C6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1700003C6_20250826T004843SQUARE.png" group-title="SAMSUNG ES",Coreano by CJ ENM
 https://jmp2.uk/stvp-ES1700003C6
@@ -87,7 +87,7 @@ https://jmp2.uk/stvp-ES200041FT
 https://jmp2.uk/stvp-ES900001SH
 #EXTINF:-1 tvg-id="ES260000968" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260000968_20250415T021754SQUARE.png" group-title="SAMSUNG ES",Euronews EN DIRECTO
 https://jmp2.uk/stvp-ES260000968
-#EXTINF:-1 tvg-id="ESBC4100004J1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100004J1_20260224T030740SQUARE.png" group-title="SAMSUNG ES",24H
+#EXTINF:-1 tvg-id="ESBC4100004J1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100004J1_20260622T063654SQUARE.png" group-title="SAMSUNG ES",24H
 https://jmp2.uk/stvp-ESBC4100004J1
 #EXTINF:-1 tvg-id="ES300034BT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300034BT_20260324T034819SQUARE.png" group-title="SAMSUNG ES",Actualidad 360
 https://jmp2.uk/stvp-ES300034BT
@@ -105,7 +105,7 @@ https://jmp2.uk/stvp-ESBD36000026Z
 https://jmp2.uk/stvp-ES2300004XW
 #EXTINF:-1 tvg-id="ESBC400003YM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC400003YM_20241106T142315SQUARE.png" group-title="SAMSUNG ES",NBC News NOW
 https://jmp2.uk/stvp-ESBC400003YM
-#EXTINF:-1 tvg-id="ES34000039I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES34000039I_20241022T050503SQUARE.png" group-title="SAMSUNG ES",CNN en Español
+#EXTINF:-1 tvg-id="ES34000039I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES34000039I_20260622T063630SQUARE.png" group-title="SAMSUNG ES",CNN en Español
 https://jmp2.uk/stvp-ES34000039I
 #EXTINF:-1 tvg-id="ES3400004SS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3400004SS_20250624T020505SQUARE.png" group-title="SAMSUNG ES",Sky News International
 https://jmp2.uk/stvp-ES3400004SS
@@ -131,7 +131,7 @@ https://jmp2.uk/stvp-ES3300001MC
 https://jmp2.uk/stvp-ES2600005G9
 #EXTINF:-1 tvg-id="ES45000012U" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES45000012U_20251202T002544SQUARE.png" group-title="SAMSUNG ES",Alerta Cobra
 https://jmp2.uk/stvp-ES45000012U
-#EXTINF:-1 tvg-id="ESBC410000577" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC410000577_20260609T043038SQUARE.png" group-title="SAMSUNG ES",Teledeporte
+#EXTINF:-1 tvg-id="ESBC410000577" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC410000577_20260622T063739SQUARE.png" group-title="SAMSUNG ES",Teledeporte
 https://jmp2.uk/stvp-ESBC410000577
 #EXTINF:-1 tvg-id="ESBD2600001ME" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD2600001ME_20250923T011606SQUARE.png" group-title="SAMSUNG ES",Tennis Channel
 https://jmp2.uk/stvp-ESBD2600001ME
@@ -143,7 +143,7 @@ https://jmp2.uk/stvp-ES20000065W
 https://jmp2.uk/stvp-ES3800001V1
 #EXTINF:-1 tvg-id="ES4300004JP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4300004JP_20260120T031337SQUARE.png" group-title="SAMSUNG ES",Rugby Challenge
 https://jmp2.uk/stvp-ES4300004JP
-#EXTINF:-1 tvg-id="ESBD3600001Q1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3600001Q1_20241022T050545SQUARE.png" group-title="SAMSUNG ES",La Liga Inside
+#EXTINF:-1 tvg-id="ESBD3600001Q1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3600001Q1_20260622T063635SQUARE.png" group-title="SAMSUNG ES",La Liga Inside
 https://jmp2.uk/stvp-ESBD3600001Q1
 #EXTINF:-1 tvg-id="ES3200003OC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3200003OC_20251230T030907SQUARE.png" group-title="SAMSUNG ES",DFB Play TV
 https://jmp2.uk/stvp-ES3200003OC
@@ -161,7 +161,7 @@ https://jmp2.uk/stvp-ES51000017V
 https://jmp2.uk/stvp-ES3400002PY
 #EXTINF:-1 tvg-id="ESBD2900001P9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD2900001P9_20241022T051205SQUARE.png" group-title="SAMSUNG ES",World Poker Tour
 https://jmp2.uk/stvp-ESBD2900001P9
-#EXTINF:-1 tvg-id="ESBC4100003WE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100003WE_20260224T030737SQUARE.png" group-title="SAMSUNG ES",Clan
+#EXTINF:-1 tvg-id="ESBC4100003WE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100003WE_20260622T063701SQUARE.png" group-title="SAMSUNG ES",Clan
 https://jmp2.uk/stvp-ESBC4100003WE
 #EXTINF:-1 tvg-id="ES5000001CS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES5000001CS_20250218T035957SQUARE.png" group-title="SAMSUNG ES",LooLoo Kids
 https://jmp2.uk/stvp-ES5000001CS
@@ -189,7 +189,7 @@ https://jmp2.uk/stvp-ESBD2300003S5
 https://jmp2.uk/stvp-ESBA33000324U
 #EXTINF:-1 tvg-id="ESBA33000262Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA33000262Z_20250307T152119SQUARE.png" group-title="SAMSUNG ES",Bob Esponja
 https://jmp2.uk/stvp-ESBA33000262Z
-#EXTINF:-1 tvg-id="ES2600008NX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600008NX_20241210T052643SQUARE.png" group-title="SAMSUNG ES",Rantaró, El Ninja Boy
+#EXTINF:-1 tvg-id="ES2600008NX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600008NX_20260622T063640SQUARE.png" group-title="SAMSUNG ES",Rantaró, El Ninja Boy
 https://jmp2.uk/stvp-ES2600008NX
 #EXTINF:-1 tvg-id="ES4400001N3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400001N3_20260421T125609SQUARE.png" group-title="SAMSUNG ES",Las 3 Mellizas
 https://jmp2.uk/stvp-ES4400001N3
@@ -263,7 +263,7 @@ https://jmp2.uk/stvp-ES300006QJ
 https://jmp2.uk/stvp-ES2600003UM
 #EXTINF:-1 tvg-id="ES2600004BD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600004BD_20241126T043053SQUARE.png" group-title="SAMSUNG ES",Acción - Rakuten TV
 https://jmp2.uk/stvp-ES2600004BD
-#EXTINF:-1 tvg-id="ESBC2100002LV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2100002LV_20241022T051144SQUARE.png" group-title="SAMSUNG ES",Vevo Latino
+#EXTINF:-1 tvg-id="ESBC2100002LV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2100002LV_20260622T063755SQUARE.png" group-title="SAMSUNG ES",Vevo Latino
 https://jmp2.uk/stvp-ESBC2100002LV
 #EXTINF:-1 tvg-id="ESBD230000289" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD230000289_20250513T005434SQUARE.png" group-title="SAMSUNG ES",Vevo Retro
 https://jmp2.uk/stvp-ESBD230000289
@@ -289,7 +289,7 @@ https://jmp2.uk/stvp-ES32000027M
 https://jmp2.uk/stvp-ES1700005ME
 #EXTINF:-1 tvg-id="ES3900001QG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3900001QG_20251125T101427SQUARE.png" group-title="SAMSUNG ES",K-POP by CJ ENM
 https://jmp2.uk/stvp-ES3900001QG
-#EXTINF:-1 tvg-id="ES1000001EF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1000001EF_20260528T055643SQUARE.png" group-title="SAMSUNG ES",SMTOWN
+#EXTINF:-1 tvg-id="ES1000001EF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1000001EF_20260622T063625SQUARE.png" group-title="SAMSUNG ES",SMTOWN
 https://jmp2.uk/stvp-ES1000001EF
 #EXTINF:-1 tvg-id="ES7000088K" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES7000088K_20260609T043032SQUARE.png" group-title="SAMSUNG ES",Space Live
 https://jmp2.uk/stvp-ES7000088K
@@ -343,7 +343,7 @@ https://jmp2.uk/stvp-ES1600003FF
 https://jmp2.uk/stvp-ESBC4700002TD
 #EXTINF:-1 tvg-id="ESBC170000388" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC170000388_20241022T051159SQUARE.png" group-title="SAMSUNG ES",WaterBear
 https://jmp2.uk/stvp-ESBC170000388
-#EXTINF:-1 tvg-id="ES3600001Y7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3600001Y7_20260609T043014SQUARE.png" group-title="SAMSUNG ES",Rebelde
+#EXTINF:-1 tvg-id="ES3600001Y7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3600001Y7_20260622T063730SQUARE.png" group-title="SAMSUNG ES",Rebelde
 https://jmp2.uk/stvp-ES3600001Y7
 #EXTINF:-1 tvg-id="ESBC43000013T" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC43000013T_20241106T142336SQUARE.png" group-title="SAMSUNG ES",Todo Novelas
 https://jmp2.uk/stvp-ESBC43000013T
