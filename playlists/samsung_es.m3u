@@ -1,12 +1,16 @@
 #EXTM3U url-tvg="https://i.mjh.nz/Samsung/es.xml.gz"
 #EXTINF:-1 tvg-id="ESBC4100001NZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100001NZ_20260622T063708SQUARE.png" group-title="SAMSUNG ES",La 1
 https://jmp2.uk/stvp-ESBC4100001NZ
+#EXTINF:-1 tvg-id="ES4400002LI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400002LI_20260622T063722SQUARE.png" group-title="SAMSUNG ES",Mi Casa
+https://jmp2.uk/stvp-ES4400002LI
 #EXTINF:-1 tvg-id="ES26000068D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES26000068D_20241126T043113SQUARE.png" group-title="SAMSUNG ES",Estilo y Vida – Rakuten TV
 https://jmp2.uk/stvp-ES26000068D
 #EXTINF:-1 tvg-id="ESBD3000002GP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3000002GP_20260528T055720SQUARE.png" group-title="SAMSUNG ES",Canal Sur Andalucía
 https://jmp2.uk/stvp-ESBD3000002GP
 #EXTINF:-1 tvg-id="ESBC4100002AG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100002AG_20260622T063715SQUARE.png" group-title="SAMSUNG ES",La 2
 https://jmp2.uk/stvp-ESBC4100002AG
+#EXTINF:-1 tvg-id="ES300030ZT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300030ZT_20260622T063747SQUARE.png" group-title="SAMSUNG ES",Telemadrid
+https://jmp2.uk/stvp-ES300030ZT
 #EXTINF:-1 tvg-id="ES300004C9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300004C9_20260528T055651SQUARE.png" group-title="SAMSUNG ES",Sony One Shark Tank
 https://jmp2.uk/stvp-ES300004C9
 #EXTINF:-1 tvg-id="ESAJ3800006TT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800006TT_20241106T142236SQUARE.png" group-title="SAMSUNG ES",MTV Cribs
@@ -33,8 +37,6 @@ https://jmp2.uk/stvp-ES26000025M
 https://jmp2.uk/stvp-ES4100001XD
 #EXTINF:-1 tvg-id="ESBC3500002PW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC3500002PW_20241022T051025SQUARE.png" group-title="SAMSUNG ES",Ideas en 5 Minutos
 https://jmp2.uk/stvp-ESBC3500002PW
-#EXTINF:-1 tvg-id="ES70000710" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES70000710_20260622T063647SQUARE.png" group-title="SAMSUNG ES",Ubeat Lite
-https://jmp2.uk/stvp-ES70000710
 #EXTINF:-1 tvg-id="ES42000022E" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES42000022E_20251202T002550SQUARE.png" group-title="SAMSUNG ES",Xataka
 https://jmp2.uk/stvp-ES42000022E
 #EXTINF:-1 tvg-id="ESBD1300004IG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1300004IG_20241022T050448SQUARE.png" group-title="SAMSUNG ES",Azteca Internacional
@@ -49,8 +51,6 @@ https://jmp2.uk/stvp-ES1200005Z1
 https://jmp2.uk/stvp-ES4700001VS
 #EXTINF:-1 tvg-id="ES4300006I4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4300006I4_20260609T042943SQUARE.png" group-title="SAMSUNG ES",El Mueble
 https://jmp2.uk/stvp-ES4300006I4
-#EXTINF:-1 tvg-id="ES4400002LI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400002LI_20260622T063722SQUARE.png" group-title="SAMSUNG ES",Mi Casa
-https://jmp2.uk/stvp-ES4400002LI
 #EXTINF:-1 tvg-id="ES1700003C6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1700003C6_20250826T004843SQUARE.png" group-title="SAMSUNG ES",Coreano by CJ ENM
 https://jmp2.uk/stvp-ES1700003C6
 #EXTINF:-1 tvg-id="ES400002P5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES400002P5_20260421T125613SQUARE.png" group-title="SAMSUNG ES",Cuéntame cómo pasó
@@ -131,8 +131,6 @@ https://jmp2.uk/stvp-ES3300001MC
 https://jmp2.uk/stvp-ES2600005G9
 #EXTINF:-1 tvg-id="ES45000012U" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES45000012U_20251202T002544SQUARE.png" group-title="SAMSUNG ES",Alerta Cobra
 https://jmp2.uk/stvp-ES45000012U
-#EXTINF:-1 tvg-id="ESBC410000577" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC410000577_20260622T063739SQUARE.png" group-title="SAMSUNG ES",Teledeporte
-https://jmp2.uk/stvp-ESBC410000577
 #EXTINF:-1 tvg-id="ESBD2600001ME" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD2600001ME_20250923T011606SQUARE.png" group-title="SAMSUNG ES",Tennis Channel
 https://jmp2.uk/stvp-ESBD2600001ME
 #EXTINF:-1 tvg-id="ES30000091V" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES30000091V_20241022T050555SQUARE.png" group-title="SAMSUNG ES",MyPadel TV
@@ -143,8 +141,8 @@ https://jmp2.uk/stvp-ES20000065W
 https://jmp2.uk/stvp-ES3800001V1
 #EXTINF:-1 tvg-id="ES4300004JP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4300004JP_20260120T031337SQUARE.png" group-title="SAMSUNG ES",Rugby Challenge
 https://jmp2.uk/stvp-ES4300004JP
-#EXTINF:-1 tvg-id="ESBD3600001Q1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3600001Q1_20260622T063635SQUARE.png" group-title="SAMSUNG ES",La Liga Inside
-https://jmp2.uk/stvp-ESBD3600001Q1
+#EXTINF:-1 tvg-id="ESBC410000577" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC410000577_20260622T063739SQUARE.png" group-title="SAMSUNG ES",Teledeporte
+https://jmp2.uk/stvp-ESBC410000577
 #EXTINF:-1 tvg-id="ES3200003OC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3200003OC_20251230T030907SQUARE.png" group-title="SAMSUNG ES",DFB Play TV
 https://jmp2.uk/stvp-ES3200003OC
 #EXTINF:-1 tvg-id="ES1100001MT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1100001MT_20260528T055916SQUARE.png" group-title="SAMSUNG ES",Top Barça
@@ -189,8 +187,6 @@ https://jmp2.uk/stvp-ESBD2300003S5
 https://jmp2.uk/stvp-ESBA33000324U
 #EXTINF:-1 tvg-id="ESBA33000262Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA33000262Z_20250307T152119SQUARE.png" group-title="SAMSUNG ES",Bob Esponja
 https://jmp2.uk/stvp-ESBA33000262Z
-#EXTINF:-1 tvg-id="ES2600008NX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2600008NX_20260622T063640SQUARE.png" group-title="SAMSUNG ES",Rantaró, El Ninja Boy
-https://jmp2.uk/stvp-ES2600008NX
 #EXTINF:-1 tvg-id="ES4400001N3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400001N3_20260421T125609SQUARE.png" group-title="SAMSUNG ES",Las 3 Mellizas
 https://jmp2.uk/stvp-ES4400001N3
 #EXTINF:-1 tvg-id="ESAJ38000046O" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ38000046O_20241022T050405SQUARE.png" group-title="SAMSUNG ES",Pluto TV Kids
@@ -343,10 +339,10 @@ https://jmp2.uk/stvp-ES1600003FF
 https://jmp2.uk/stvp-ESBC4700002TD
 #EXTINF:-1 tvg-id="ESBC170000388" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC170000388_20241022T051159SQUARE.png" group-title="SAMSUNG ES",WaterBear
 https://jmp2.uk/stvp-ESBC170000388
-#EXTINF:-1 tvg-id="ES3600001Y7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3600001Y7_20260622T063730SQUARE.png" group-title="SAMSUNG ES",Rebelde
-https://jmp2.uk/stvp-ES3600001Y7
 #EXTINF:-1 tvg-id="ESBC43000013T" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC43000013T_20241106T142336SQUARE.png" group-title="SAMSUNG ES",Todo Novelas
 https://jmp2.uk/stvp-ESBC43000013T
+#EXTINF:-1 tvg-id="ES3600001Y7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3600001Y7_20260622T063730SQUARE.png" group-title="SAMSUNG ES",Rebelde
+https://jmp2.uk/stvp-ES3600001Y7
 #EXTINF:-1 tvg-id="ES2900003S3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2900003S3_20251111T011943SQUARE.png" group-title="SAMSUNG ES",Piel Salvaje
 https://jmp2.uk/stvp-ES2900003S3
 #EXTINF:-1 tvg-id="ESAJ3800005C5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800005C5_20241022T050710SQUARE.png" group-title="SAMSUNG ES",Comedia Made in Spain
