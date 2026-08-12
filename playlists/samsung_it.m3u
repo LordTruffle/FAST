@@ -117,6 +117,10 @@ https://jmp2.uk/stvp-ITBA3300025F5
 https://jmp2.uk/stvp-IT9000113W
 #EXTINF:-1 tvg-id="IT3000010NB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3000010NB_20260721T040316SQUARE.png" group-title="SAMSUNG IT",RTL 102.5
 https://jmp2.uk/stvp-IT3000010NB
+#EXTINF:-1 tvg-id="IT300001586" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT300001586_20260811T045422SQUARE.png" group-title="SAMSUNG IT",RTL 102.5 Radio Freccia
+https://jmp2.uk/stvp-IT300001586
+#EXTINF:-1 tvg-id="IT3000016RH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3000016RH_20260811T045427SQUARE.png" group-title="SAMSUNG IT",RTL 102.5 Radio Zeta
+https://jmp2.uk/stvp-IT3000016RH
 #EXTINF:-1 tvg-id="IT9000060Q" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT9000060Q_20260721T040402SQUARE.png" group-title="SAMSUNG IT",NOVE
 https://jmp2.uk/stvp-IT9000060Q
 #EXTINF:-1 tvg-id="IT500010AQ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT500010AQ_20260113T032834SQUARE.png" group-title="SAMSUNG IT",Class TV Moda
@@ -317,10 +321,6 @@ https://jmp2.uk/stvp-IT2200009F9
 https://jmp2.uk/stvp-ITBC400003Y7
 #EXTINF:-1 tvg-id="ITBA3300022EA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA3300022EA_20260113T032817SQUARE.png" group-title="SAMSUNG IT",SportOutdoor.tv
 https://jmp2.uk/stvp-ITBA3300022EA
-#EXTINF:-1 tvg-id="IT300001586" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT300001586_20260811T045422SQUARE.png" group-title="SAMSUNG IT",RTL 102.5 Radio Freccia
-https://jmp2.uk/stvp-IT300001586
-#EXTINF:-1 tvg-id="IT3000016RH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3000016RH_20260811T045427SQUARE.png" group-title="SAMSUNG IT",RTL 102.5 Radio Zeta
-https://jmp2.uk/stvp-IT3000016RH
 #EXTINF:-1 tvg-id="ITBC2100001G9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC2100001G9_20241022T043927SQUARE.png" group-title="SAMSUNG IT",Vevo Pop
 https://jmp2.uk/stvp-ITBC2100001G9
 #EXTINF:-1 tvg-id="ITBD1900010JL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1900010JL_20241022T043922SQUARE.png" group-title="SAMSUNG IT",Vevo '70s & '80s
