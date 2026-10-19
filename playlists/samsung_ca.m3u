@@ -41,12 +41,10 @@ https://jmp2.uk/stvp-CA4600015MG
 https://jmp2.uk/stvp-CABC23000223U
 #EXTINF:-1 tvg-id="CA2400002V9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2400002V9_20260929T044615SQUARE.png" group-title="SAMSUNG CA",Business Insider
 https://jmp2.uk/stvp-CA2400002V9
-#EXTINF:-1 tvg-id="CAAJ27000159K" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000159K_20261016T224250SQUARE.png" group-title="SAMSUNG CA",FilmRise Western
-https://jmp2.uk/stvp-CAAJ27000159K
-#EXTINF:-1 tvg-id="CAAJ40000077N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ40000077N_20260701T010156SQUARE.png" group-title="SAMSUNG CA",FilmRise Free Movies
-https://jmp2.uk/stvp-CAAJ40000077N
 #EXTINF:-1 tvg-id="CAAJ2700014EE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700014EE_20261016T224242SQUARE.png" group-title="SAMSUNG CA",FilmRise Action
 https://jmp2.uk/stvp-CAAJ2700014EE
+#EXTINF:-1 tvg-id="CAAJ40000077N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ40000077N_20260701T010156SQUARE.png" group-title="SAMSUNG CA",FilmRise Free Movies
+https://jmp2.uk/stvp-CAAJ40000077N
 #EXTINF:-1 tvg-id="CA1400008DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400008DK_20260421T141223SQUARE.png" group-title="SAMSUNG CA",Noovo cinéma
 https://jmp2.uk/stvp-CA1400008DK
 #EXTINF:-1 tvg-id="CA1500004OB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500004OB_20261013T224428SQUARE.png" group-title="SAMSUNG CA",MovieSphere
@@ -67,6 +65,10 @@ https://jmp2.uk/stvp-CA800002TN
 https://jmp2.uk/stvp-CA35000078O
 #EXTINF:-1 tvg-id="CA44000025P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA44000025P_20250819T224258SQUARE.png" group-title="SAMSUNG CA",Grjngo
 https://jmp2.uk/stvp-CA44000025P
+#EXTINF:-1 tvg-id="CAAJ27000159K" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000159K_20261016T224250SQUARE.png" group-title="SAMSUNG CA",FilmRise Western
+https://jmp2.uk/stvp-CAAJ27000159K
+#EXTINF:-1 tvg-id="CA4600004EA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600004EA_20261016T224344SQUARE.png" group-title="SAMSUNG CA",Heartland
+https://jmp2.uk/stvp-CA4600004EA
 #EXTINF:-1 tvg-id="CABC23000056U" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000056U_20260421T141217SQUARE.png" group-title="SAMSUNG CA",Midsomer Murders
 https://jmp2.uk/stvp-CABC23000056U
 #EXTINF:-1 tvg-id="CA4600001IG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600001IG_20260818T061700SQUARE.png" group-title="SAMSUNG CA",Murdoch Mysteries
@@ -85,8 +87,6 @@ https://jmp2.uk/stvp-CA3500005NS
 https://jmp2.uk/stvp-CAAJ2700008QA
 #EXTINF:-1 tvg-id="CA2100002KI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2100002KI_20260609T034615SQUARE.png" group-title="SAMSUNG CA",Dhar Mann TV
 https://jmp2.uk/stvp-CA2100002KI
-#EXTINF:-1 tvg-id="CA4600004EA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600004EA_20261016T224344SQUARE.png" group-title="SAMSUNG CA",Heartland
-https://jmp2.uk/stvp-CA4600004EA
 #EXTINF:-1 tvg-id="CABA3700002ML" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABA3700002ML_20260727T081515SQUARE.png" group-title="SAMSUNG CA",Baywatch
 https://jmp2.uk/stvp-CABA3700002ML
 #EXTINF:-1 tvg-id="CABB26000082J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB26000082J_20250826T234604SQUARE.png" group-title="SAMSUNG CA",21 Jump Street
@@ -107,8 +107,6 @@ https://jmp2.uk/stvp-CA2000007YG
 https://jmp2.uk/stvp-CAAJ34000158F
 #EXTINF:-1 tvg-id="CABC5200019FS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200019FS_20260825T040504SQUARE.png" group-title="SAMSUNG CA",Degrassi
 https://jmp2.uk/stvp-CABC5200019FS
-#EXTINF:-1 tvg-id="CA4700015P1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4700015P1_20261016T224331SQUARE.png" group-title="SAMSUNG CA",Crime 360
-https://jmp2.uk/stvp-CA4700015P1
 #EXTINF:-1 tvg-id="CABC23000189A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000189A_20261016T224325SQUARE.png" group-title="SAMSUNG CA",Cops
 https://jmp2.uk/stvp-CABC23000189A
 #EXTINF:-1 tvg-id="CAAJ27000079E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000079E_20260421T140937SQUARE.png" group-title="SAMSUNG CA",FilmRise True Crime
@@ -117,6 +115,8 @@ https://jmp2.uk/stvp-CAAJ27000079E
 https://jmp2.uk/stvp-CABD1200007HY
 #EXTINF:-1 tvg-id="CA26000068X" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA26000068X_20261006T050938SQUARE.png" group-title="SAMSUNG CA",Silent Witness & New Tricks
 https://jmp2.uk/stvp-CA26000068X
+#EXTINF:-1 tvg-id="CA4700015P1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4700015P1_20261016T224331SQUARE.png" group-title="SAMSUNG CA",Crime 360
+https://jmp2.uk/stvp-CA4700015P1
 #EXTINF:-1 tvg-id="CABB2600009WE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2600009WE_20260421T140509SQUARE.png" group-title="SAMSUNG CA",Dr. G: Medical Examiner
 https://jmp2.uk/stvp-CABB2600009WE
 #EXTINF:-1 tvg-id="CA4700017S7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4700017S7_20260727T081710SQUARE.png" group-title="SAMSUNG CA",The First 48
@@ -135,6 +135,8 @@ https://jmp2.uk/stvp-CA1400006BZ
 https://jmp2.uk/stvp-CAAJ3400002DI
 #EXTINF:-1 tvg-id="CABA3700005AD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABA3700005AD_20260825T040429SQUARE.png" group-title="SAMSUNG CA",Court TV
 https://jmp2.uk/stvp-CABA3700005AD
+#EXTINF:-1 tvg-id="CA31000029Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA31000029Z_20261016T224401SQUARE.png" group-title="SAMSUNG CA",Scare Tactics
+https://jmp2.uk/stvp-CA31000029Z
 #EXTINF:-1 tvg-id="CABB2600006SV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2600006SV_20260929T044530SQUARE.png" group-title="SAMSUNG CA",Hell's Kitchen
 https://jmp2.uk/stvp-CABB2600006SV
 #EXTINF:-1 tvg-id="CA18000010N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA18000010N_20260505T062326SQUARE.png" group-title="SAMSUNG CA",Fear Factor
@@ -153,8 +155,6 @@ https://jmp2.uk/stvp-CA2100004VD
 https://jmp2.uk/stvp-CA900007X0
 #EXTINF:-1 tvg-id="CA900005B8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900005B8_20260421T140911SQUARE.png" group-title="SAMSUNG CA",Dance Moms
 https://jmp2.uk/stvp-CA900005B8
-#EXTINF:-1 tvg-id="CA31000029Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA31000029Z_20261016T224401SQUARE.png" group-title="SAMSUNG CA",Scare Tactics
-https://jmp2.uk/stvp-CA31000029Z
 #EXTINF:-1 tvg-id="CABD1200041NC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200041NC_20250121T094948SQUARE.png" group-title="SAMSUNG CA",Cheaters
 https://jmp2.uk/stvp-CABD1200041NC
 #EXTINF:-1 tvg-id="CABB2500026WM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500026WM_20260203T191214SQUARE.png" group-title="SAMSUNG CA",Operation Repo
@@ -225,12 +225,12 @@ https://jmp2.uk/stvp-CA13000084U
 https://jmp2.uk/stvp-CABB2500030GT
 #EXTINF:-1 tvg-id="CA2600004XW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2600004XW_20251209T013610SQUARE.png" group-title="SAMSUNG CA",CraftsyTV
 https://jmp2.uk/stvp-CA2600004XW
+#EXTINF:-1 tvg-id="CA36000019W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA36000019W_20261016T224404SQUARE.png" group-title="SAMSUNG CA",The NBA Channel
+https://jmp2.uk/stvp-CA36000019W
 #EXTINF:-1 tvg-id="CA1400001PI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400001PI_20261013T224422SQUARE.png" group-title="SAMSUNG CA",MLB Channel
 https://jmp2.uk/stvp-CA1400001PI
 #EXTINF:-1 tvg-id="CA4100006T3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4100006T3_20260707T040129SQUARE.png" group-title="SAMSUNG CA",MiLB
 https://jmp2.uk/stvp-CA4100006T3
-#EXTINF:-1 tvg-id="CA36000019W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA36000019W_20261016T224404SQUARE.png" group-title="SAMSUNG CA",The NBA Channel
-https://jmp2.uk/stvp-CA36000019W
 #EXTINF:-1 tvg-id="CA4700011LV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4700011LV_20260421T140840SQUARE.png" group-title="SAMSUNG CA",SLVR
 https://jmp2.uk/stvp-CA4700011LV
 #EXTINF:-1 tvg-id="CA1400003R3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400003R3_20260421T140253SQUARE.png" group-title="SAMSUNG CA",TSN The Ocho
@@ -379,10 +379,10 @@ https://jmp2.uk/stvp-CA47000169X
 https://jmp2.uk/stvp-CAAJ1700002PA
 #EXTINF:-1 tvg-id="CABC5200021HG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200021HG_20260421T140628SQUARE.png" group-title="SAMSUNG CA",Midnight Pulp
 https://jmp2.uk/stvp-CABC5200021HG
-#EXTINF:-1 tvg-id="CA2000009WX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2000009WX_20261016T224337SQUARE.png" group-title="SAMSUNG CA",Crunchyroll
-https://jmp2.uk/stvp-CA2000009WX
 #EXTINF:-1 tvg-id="CA1100002J6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1100002J6_20260609T034538SQUARE.png" group-title="SAMSUNG CA",It’s Anime
 https://jmp2.uk/stvp-CA1100002J6
+#EXTINF:-1 tvg-id="CA2000009WX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2000009WX_20261016T224337SQUARE.png" group-title="SAMSUNG CA",Crunchyroll
+https://jmp2.uk/stvp-CA2000009WX
 #EXTINF:-1 tvg-id="CABC2300012FY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300012FY_20260811T043156SQUARE.png" group-title="SAMSUNG CA",RetroCrush
 https://jmp2.uk/stvp-CABC2300012FY
 #EXTINF:-1 tvg-id="CA1700006FC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1700006FC_20251028T011222SQUARE.png" group-title="SAMSUNG CA",BizaarTV
@@ -399,8 +399,6 @@ https://jmp2.uk/stvp-CA2700002RF
 https://jmp2.uk/stvp-CA34000054K
 #EXTINF:-1 tvg-id="CA2400001LE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2400001LE_20250826T234717SQUARE.png" group-title="SAMSUNG CA",Team Liquid
 https://jmp2.uk/stvp-CA2400001LE
-#EXTINF:-1 tvg-id="CA500011P3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA500011P3_20261016T224350SQUARE.png" group-title="SAMSUNG CA",Lucky Dog
-https://jmp2.uk/stvp-CA500011P3
 #EXTINF:-1 tvg-id="CA2100007GY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2100007GY_20260428T032048SQUARE.png" group-title="SAMSUNG CA",Brave Wilderness
 https://jmp2.uk/stvp-CA2100007GY
 #EXTINF:-1 tvg-id="CABC2300001X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300001X9_20250523T232007SQUARE.png" group-title="SAMSUNG CA",The Jack Hanna Channel
@@ -409,6 +407,8 @@ https://jmp2.uk/stvp-CABC2300001X9
 https://jmp2.uk/stvp-CA300017ZS
 #EXTINF:-1 tvg-id="CAAJ270002855" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ270002855_20260421T140951SQUARE.png" group-title="SAMSUNG CA",The Pet Collective
 https://jmp2.uk/stvp-CAAJ270002855
+#EXTINF:-1 tvg-id="CA500011P3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA500011P3_20261016T224350SQUARE.png" group-title="SAMSUNG CA",Lucky Dog
+https://jmp2.uk/stvp-CA500011P3
 #EXTINF:-1 tvg-id="CA3400002KP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA3400002KP_20260421T140715SQUARE.png" group-title="SAMSUNG CA",Dog Whisperer
 https://jmp2.uk/stvp-CA3400002KP
 #EXTINF:-1 tvg-id="CA50000031X" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA50000031X_20260324T032412SQUARE.png" group-title="SAMSUNG CA",The Yorkshire Vet
