@@ -1,12 +1,14 @@
 #EXTM3U url-tvg="https://i.mjh.nz/Samsung/us.xml.gz"
-#EXTINF:-1 tvg-id="USBA370000104" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20260826T013607SQUARE.png" group-title="SAMSUNG US",CBS News 24/7
-https://jmp2.uk/stvp-USBA370000104
-#EXTINF:-1 tvg-id="USBC39000171G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000171G_20260421T133843SQUARE.png" group-title="SAMSUNG US",ABC News Live
-https://jmp2.uk/stvp-USBC39000171G
-#EXTINF:-1 tvg-id="USBB2200014DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20260421T133829SQUARE.png" group-title="SAMSUNG US",NBC News NOW
+#EXTINF:-1 tvg-id="USBB2200014DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20261103T171506SQUARE.png" group-title="SAMSUNG US",NBC News NOW
 https://jmp2.uk/stvp-USBB2200014DK
-#EXTINF:-1 tvg-id="USBA300024TN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300024TN_20261007T004714SQUARE.png" group-title="SAMSUNG US",LiveNOW from FOX
+#EXTINF:-1 tvg-id="USBC39000171G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000171G_20261103T171547SQUARE.png" group-title="SAMSUNG US",ABC News Live
+https://jmp2.uk/stvp-USBC39000171G
+#EXTINF:-1 tvg-id="USBA370000104" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20261103T171429SQUARE.png" group-title="SAMSUNG US",CBS News 24/7
+https://jmp2.uk/stvp-USBA370000104
+#EXTINF:-1 tvg-id="USBA300024TN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300024TN_20261103T171444SQUARE.png" group-title="SAMSUNG US",LiveNOW from FOX
 https://jmp2.uk/stvp-USBA300024TN
+#EXTINF:-1 tvg-id="USBD1700014QU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700014QU_20261103T171602SQUARE.png" group-title="SAMSUNG US",N+ Univision 24/7
+https://jmp2.uk/stvp-USBD1700014QU
 #EXTINF:-1 tvg-id="USBD3000073N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20260421T133724SQUARE.png" group-title="SAMSUNG US",Scripps News
 https://jmp2.uk/stvp-USBD3000073N
 #EXTINF:-1 tvg-id="USBC1000017D8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1000017D8_20260421T143646SQUARE.png" group-title="SAMSUNG US",WSOC Charlotte
@@ -27,8 +29,6 @@ https://jmp2.uk/stvp-US4000033L
 https://jmp2.uk/stvp-USBB52000022Q
 #EXTINF:-1 tvg-id="USBC4400003OU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400003OU_20251125T030832SQUARE.png" group-title="SAMSUNG US",CBC News
 https://jmp2.uk/stvp-USBC4400003OU
-#EXTINF:-1 tvg-id="USBD1700014QU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700014QU_20260929T235832SQUARE.png" group-title="SAMSUNG US",N+ Univision 24/7
-https://jmp2.uk/stvp-USBD1700014QU
 #EXTINF:-1 tvg-id="USAJ3400011A8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3400011A8_20260421T133416SQUARE.png" group-title="SAMSUNG US",Bloomberg TV+
 https://jmp2.uk/stvp-USAJ3400011A8
 #EXTINF:-1 tvg-id="USAJ30000041W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000041W_20260421T133707SQUARE.png" group-title="SAMSUNG US",Bloomberg Originals
@@ -61,14 +61,18 @@ https://jmp2.uk/stvp-USBD3500032H0
 https://jmp2.uk/stvp-US38000108V
 #EXTINF:-1 tvg-id="USBD3500033U0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500033U0_20261016T175708SQUARE.png" group-title="SAMSUNG US",Movie Hub Romance
 https://jmp2.uk/stvp-USBD3500033U0
-#EXTINF:-1 tvg-id="USBD270001633" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD270001633_20261102T091123SQUARE.png" group-title="SAMSUNG US",Hallmark Movies & More
+#EXTINF:-1 tvg-id="US3600007N4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3600007N4_20261102T091211SQUARE.png" group-title="SAMSUNG US",Movie Hub Holiday
+https://jmp2.uk/stvp-US3600007N4
+#EXTINF:-1 tvg-id="USBD270001633" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD270001633_20261102T091123SQUARE.png" group-title="SAMSUNG US",Hallmark Holiday Favorites
 https://jmp2.uk/stvp-USBD270001633
-#EXTINF:-1 tvg-id="USBB5200019FO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB5200019FO_20261102T091147SQUARE.png" group-title="SAMSUNG US",Lifetime Movie Favorites
+#EXTINF:-1 tvg-id="USBB5200019FO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB5200019FO_20261102T091147SQUARE.png" group-title="SAMSUNG US",Lifetime Holiday Movie Favorites
 https://jmp2.uk/stvp-USBB5200019FO
 #EXTINF:-1 tvg-id="US1600002OK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1600002OK_20260727T081354SQUARE.png" group-title="SAMSUNG US",Lifetime Movies Love & Drama
 https://jmp2.uk/stvp-US1600002OK
 #EXTINF:-1 tvg-id="USBD17000117B" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000117B_20241105T024212SQUARE.png" group-title="SAMSUNG US",MovieSphere
 https://jmp2.uk/stvp-USBD17000117B
+#EXTINF:-1 tvg-id="US4300005KC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4300005KC_20261102T190607SQUARE.png" group-title="SAMSUNG US",The Hunger Games
+https://jmp2.uk/stvp-US4300005KC
 #EXTINF:-1 tvg-id="USBA300017PK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300017PK_20261002T181921SQUARE.png" group-title="SAMSUNG US",Pluto TV Fantastic
 https://jmp2.uk/stvp-USBA300017PK
 #EXTINF:-1 tvg-id="US18000163F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US18000163F_20261009T160639SQUARE.png" group-title="SAMSUNG US",Miramax Movie Channel
@@ -123,10 +127,8 @@ https://jmp2.uk/stvp-USBD1200002PM
 https://jmp2.uk/stvp-USBD1200021JM
 #EXTINF:-1 tvg-id="US3900008GK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3900008GK_20260428T032017SQUARE.png" group-title="SAMSUNG US",The Brady Bunch
 https://jmp2.uk/stvp-US3900008GK
-#EXTINF:-1 tvg-id="US300068X7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300068X7_20261023T223618SQUARE.png" group-title="SAMSUNG US",Samsung Television Network
+#EXTINF:-1 tvg-id="US300068X7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300068X7_20261103T171625SQUARE.png" group-title="SAMSUNG US",Samsung Television Network
 https://jmp2.uk/stvp-US300068X7
-#EXTINF:-1 tvg-id="USAJ26000015Y" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ26000015Y_20261023T223528SQUARE.png" group-title="SAMSUNG US",Supernatural Drama
-https://jmp2.uk/stvp-USAJ26000015Y
 #EXTINF:-1 tvg-id="USBB2300001QP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2300001QP_20260915T194725SQUARE.png" group-title="SAMSUNG US",ALL ACTION
 https://jmp2.uk/stvp-USBB2300001QP
 #EXTINF:-1 tvg-id="USBD300002TU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300002TU_20260922T055713SQUARE.png" group-title="SAMSUNG US",ION
@@ -167,6 +169,10 @@ https://jmp2.uk/stvp-US180001143
 https://jmp2.uk/stvp-US3000006DF
 #EXTINF:-1 tvg-id="US19000072T" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US19000072T_20260825T040243SQUARE.png" group-title="SAMSUNG US",Nashville
 https://jmp2.uk/stvp-US19000072T
+#EXTINF:-1 tvg-id="USAJ26000015Y" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ26000015Y_20261103T171527SQUARE.png" group-title="SAMSUNG US",Supernatural Drama
+https://jmp2.uk/stvp-USAJ26000015Y
+#EXTINF:-1 tvg-id="US36000086E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US36000086E_20261102T091200SQUARE.png" group-title="SAMSUNG US",Drop Dead Diva
+https://jmp2.uk/stvp-US36000086E
 #EXTINF:-1 tvg-id="US4100005NW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100005NW_20260421T133907SQUARE.png" group-title="SAMSUNG US",Dawson's Creek
 https://jmp2.uk/stvp-US4100005NW
 #EXTINF:-1 tvg-id="US4100029G5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100029G5_20260421T133634SQUARE.png" group-title="SAMSUNG US",Felicity
@@ -207,14 +213,14 @@ https://jmp2.uk/stvp-US410000230
 https://jmp2.uk/stvp-USBD700010XU
 #EXTINF:-1 tvg-id="USBC240001823" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC240001823_20241014T232222SQUARE.png" group-title="SAMSUNG US",Brat TV
 https://jmp2.uk/stvp-USBC240001823
-#EXTINF:-1 tvg-id="US1800001D1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800001D1_20261023T223559SQUARE.png" group-title="SAMSUNG US",Murder, She Wrote
-https://jmp2.uk/stvp-US1800001D1
 #EXTINF:-1 tvg-id="USBB36000040M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB36000040M_20261001T230639SQUARE.png" group-title="SAMSUNG US",Crime Zone
 https://jmp2.uk/stvp-USBB36000040M
 #EXTINF:-1 tvg-id="USBC24000223S" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20261023T182409SQUARE.png" group-title="SAMSUNG US",ION Mystery
 https://jmp2.uk/stvp-USBC24000223S
 #EXTINF:-1 tvg-id="US3700007E4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3700007E4_20260811T044013SQUARE.png" group-title="SAMSUNG US",BritBox Mysteries
 https://jmp2.uk/stvp-US3700007E4
+#EXTINF:-1 tvg-id="US1800001D1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800001D1_20261103T171553SQUARE.png" group-title="SAMSUNG US",Murder, She Wrote
+https://jmp2.uk/stvp-US1800001D1
 #EXTINF:-1 tvg-id="USBC24000134A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000134A_20241014T232251SQUARE.png" group-title="SAMSUNG US",Midsomer Murders
 https://jmp2.uk/stvp-USBC24000134A
 #EXTINF:-1 tvg-id="US2600027AI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2600027AI_20261006T051031SQUARE.png" group-title="SAMSUNG US",Silent Witness & New Tricks
@@ -437,8 +443,6 @@ https://jmp2.uk/stvp-USBC4400005HY
 https://jmp2.uk/stvp-US2600023WY
 #EXTINF:-1 tvg-id="US4900004KP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4900004KP_20260428T032005SQUARE.png" group-title="SAMSUNG US",Amazon Live
 https://jmp2.uk/stvp-US4900004KP
-#EXTINF:-1 tvg-id="USBA300031OT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20261023T223512SQUARE.png" group-title="SAMSUNG US",SportsGrid
-https://jmp2.uk/stvp-USBA300031OT
 #EXTINF:-1 tvg-id="US2600007WJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2600007WJ_20261002T182011SQUARE.png" group-title="SAMSUNG US",NFL Channel
 https://jmp2.uk/stvp-US2600007WJ
 #EXTINF:-1 tvg-id="US1400001WV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400001WV_20261016T224647SQUARE.png" group-title="SAMSUNG US",MLB Channel
@@ -485,6 +489,8 @@ https://jmp2.uk/stvp-US4600006R8
 https://jmp2.uk/stvp-US1000006HT
 #EXTINF:-1 tvg-id="USBD700013BW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700013BW_20251202T005911SQUARE.png" group-title="SAMSUNG US",DraftKings Network
 https://jmp2.uk/stvp-USBD700013BW
+#EXTINF:-1 tvg-id="USBA300031OT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20261103T171519SQUARE.png" group-title="SAMSUNG US",SportsGrid
+https://jmp2.uk/stvp-USBA300031OT
 #EXTINF:-1 tvg-id="USBD12000255B" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD12000255B_20260714T040800SQUARE.png" group-title="SAMSUNG US",FIFA+
 https://jmp2.uk/stvp-USBD12000255B
 #EXTINF:-1 tvg-id="US1000012ML" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1000012ML_20260528T041831SQUARE.png" group-title="SAMSUNG US",UEFA Champions League
@@ -503,7 +509,7 @@ https://jmp2.uk/stvp-USAJ3504705A
 https://jmp2.uk/stvp-US1400008DW
 #EXTINF:-1 tvg-id="US37000017A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US37000017A_20260421T143312SQUARE.png" group-title="SAMSUNG US",Big 12 Studios
 https://jmp2.uk/stvp-US37000017A
-#EXTINF:-1 tvg-id="USBA300034DB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300034DB_20261102T091119SQUARE.png" group-title="SAMSUNG US",Pac-12 Insider
+#EXTINF:-1 tvg-id="USBA300034DB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300034DB_20261102T091119SQUARE.png" group-title="SAMSUNG US",Pac-12 Channel
 https://jmp2.uk/stvp-USBA300034DB
 #EXTINF:-1 tvg-id="USBD25000161U" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD25000161U_20250304T041450SQUARE.png" group-title="SAMSUNG US",ACC Digital Network
 https://jmp2.uk/stvp-USBD25000161U
@@ -757,10 +763,6 @@ https://jmp2.uk/stvp-USBC2400015DO
 https://jmp2.uk/stvp-USBD70000213
 #EXTINF:-1 tvg-id="US3900006GL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3900006GL_20260915T035048SQUARE.png" group-title="SAMSUNG US",Dr. Phil Envoy
 https://jmp2.uk/stvp-US3900006GL
-#EXTINF:-1 tvg-id="US800014B2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US800014B2_20261023T223640SQUARE.png" group-title="SAMSUNG US",Z Nation
-https://jmp2.uk/stvp-US800014B2
-#EXTINF:-1 tvg-id="US300002BE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300002BE_20261023T223634SQUARE.png" group-title="SAMSUNG US",The Curse of Oak Island
-https://jmp2.uk/stvp-US300002BE
 #EXTINF:-1 tvg-id="USBC1300012VK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300012VK_20260707T035838SQUARE.png" group-title="SAMSUNG US",Fear Zone
 https://jmp2.uk/stvp-USBC1300012VK
 #EXTINF:-1 tvg-id="US39000218V" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US39000218V_20260421T141720SQUARE.png" group-title="SAMSUNG US",Ghost Hunters
@@ -769,6 +771,8 @@ https://jmp2.uk/stvp-US39000218V
 https://jmp2.uk/stvp-USBB5200028MM
 #EXTINF:-1 tvg-id="US200111SU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US200111SU_20260421T141942SQUARE.png" group-title="SAMSUNG US",Van Helsing
 https://jmp2.uk/stvp-US200111SU
+#EXTINF:-1 tvg-id="US800014B2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US800014B2_20261103T171639SQUARE.png" group-title="SAMSUNG US",Z Nation
+https://jmp2.uk/stvp-US800014B2
 #EXTINF:-1 tvg-id="USBD1200004NS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200004NS_20261001T230824SQUARE.png" group-title="SAMSUNG US",The Walking Dead Universe
 https://jmp2.uk/stvp-USBD1200004NS
 #EXTINF:-1 tvg-id="US1900002QK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900002QK_20260421T142339SQUARE.png" group-title="SAMSUNG US",Universal Monsters
@@ -777,6 +781,8 @@ https://jmp2.uk/stvp-US1900002QK
 https://jmp2.uk/stvp-US1800014CG
 #EXTINF:-1 tvg-id="USBD1200007FE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200007FE_20240611T050306SQUARE.png" group-title="SAMSUNG US",OuterSphere
 https://jmp2.uk/stvp-USBD1200007FE
+#EXTINF:-1 tvg-id="US300002BE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300002BE_20261103T171632SQUARE.png" group-title="SAMSUNG US",The Curse of Oak Island
+https://jmp2.uk/stvp-US300002BE
 #EXTINF:-1 tvg-id="USBC4400006BR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400006BR_20241014T232155SQUARE.png" group-title="SAMSUNG US",Haunt TV
 https://jmp2.uk/stvp-USBC4400006BR
 #EXTINF:-1 tvg-id="US4200004KK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4200004KK_20260421T141735SQUARE.png" group-title="SAMSUNG US",Ghost Stories
@@ -1043,6 +1049,8 @@ https://jmp2.uk/stvp-USBA3800001E0
 https://jmp2.uk/stvp-US1700019P7
 #EXTINF:-1 tvg-id="USAJ1700009QJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ1700009QJ_20260421T141816SQUARE.png" group-title="SAMSUNG US",FreeTV Estelar
 https://jmp2.uk/stvp-USAJ1700009QJ
+#EXTINF:-1 tvg-id="US370001793" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US370001793_20261102T091215SQUARE.png" group-title="SAMSUNG US",Vevo Holiday
+https://jmp2.uk/stvp-US370001793
 #EXTINF:-1 tvg-id="USBD3300004RH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300004RH_20260421T141846SQUARE.png" group-title="SAMSUNG US",XITE Hits
 https://jmp2.uk/stvp-USBD3300004RH
 #EXTINF:-1 tvg-id="USBB320000647" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB320000647_20260512T070257SQUARE.png" group-title="SAMSUNG US",XITE 80s Flashback
@@ -1139,7 +1147,7 @@ https://jmp2.uk/stvp-USBD35000180U
 https://jmp2.uk/stvp-US4700005EA
 #EXTINF:-1 tvg-id="USBD3300021KV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300021KV_20251230T035621SQUARE.png" group-title="SAMSUNG US",Stingray Hot Country
 https://jmp2.uk/stvp-USBD3300021KV
-#EXTINF:-1 tvg-id="USBD3500022DN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500022DN_20261102T091129SQUARE.png" group-title="SAMSUNG US",Stingray Greatest Hits
+#EXTINF:-1 tvg-id="USBD3500022DN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500022DN_20261102T091129SQUARE.png" group-title="SAMSUNG US",Stingray Greatest Holiday Hits
 https://jmp2.uk/stvp-USBD3500022DN
 #EXTINF:-1 tvg-id="US700012OU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700012OU_20260421T143410SQUARE.png" group-title="SAMSUNG US",Ocean Vibes
 https://jmp2.uk/stvp-US700012OU
@@ -1173,5 +1181,7 @@ https://jmp2.uk/stvp-US2900005NW
 https://jmp2.uk/stvp-US2900004L2
 #EXTINF:-1 tvg-id="USBA3800004EL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3800004EL_20260421T143340SQUARE.png" group-title="SAMSUNG US",Fireplace Vibes
 https://jmp2.uk/stvp-USBA3800004EL
-#EXTINF:-1 tvg-id="US3100004DB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3100004DB_20261102T035430SQUARE.png" group-title="SAMSUNG US",Halloween Vibes
-https://jmp2.uk/stvp-US3100004DB
+#EXTINF:-1 tvg-id="US3600005FR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3600005FR_20261102T091205SQUARE.png" group-title="SAMSUNG US",Holiday Fireplace Vibes
+https://jmp2.uk/stvp-US3600005FR
+#EXTINF:-1 tvg-id="US3600006IN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3600006IN_20261102T091154SQUARE.png" group-title="SAMSUNG US",Christmas Vibes
+https://jmp2.uk/stvp-US3600006IN
